@@ -11,11 +11,11 @@
 First, run the development server:
 
 ```bash
-https://github.com/alilishan/nextjs-starter-pack
+git clone https://github.com/alilishan/nextjs-starter-pack
 
 # or
 
-https://github.com/alilishan/nextjs-starter-pack {YOUR PROJECT NAME}
+git clone https://github.com/alilishan/nextjs-starter-pack {YOUR PROJECT NAME}
 
 # cd into the folder
 npm i
