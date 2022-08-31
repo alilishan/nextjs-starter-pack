@@ -1,0 +1,31 @@
+
+@mixin font-face($font-name, $font-path, $font-weight: 400, $font-style: normal) {
+    @font-face {
+        font-family: $font-name;
+        font-style: $font-style;
+        font-weight: $font-weight;
+
+        src: 
+            url('#{$font-path}.woff') format('woff');
+            // url('#{$font-path}.ttf') format('truetype');
+
+    }
+}
+
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Regular", 400, normal);
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Italic", 400, italic);
+
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Thin", 100, normal);
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Thin Italic", 100, italic);
+
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Light", 300, normal);
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Light Italic", 300, italic);
+
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Medium", 500, normal);
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Medium Italic", 500, italic);
+
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Bold", 600, normal);
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Bold Italic", 600, italic);
+
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Black Italic", 700, normal);
+@include font-face("Cera Pro", "#{$fontPaths}/Cera Pro Black Italic", 700, italic);

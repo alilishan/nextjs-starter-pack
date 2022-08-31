@@ -1,0 +1,21 @@
+// Gotham
+
+// @import '../../src/scss/variables.scss';
+
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Thin", 100, normal, "woffOnly" );
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Thin Italic", 100, italic, "woffOnly" );
+
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Light", 200, normal, "woffOnly" );
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Light Italic", 200, italic, "woffOnly" );
+
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Book", 300, normal, "woffOnly" );
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Book Italic", 300, italic, "woffOnly" );
+
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Medium", 500, normal, "woffOnly" );
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham MediumItalic", 400, italic, "woffOnly" );
+
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Bold", 600, normal, "woffOnly" );
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham BoldItalic", 600, italic, "woffOnly" );
+
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham Black", 800, normal, "woffOnly" );
+@include font-face("Gotham", "#{$fontPaths}Gotham/Gotham BlackItalic", 800, italic, "woffOnly" );

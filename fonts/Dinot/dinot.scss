@@ -1,0 +1,13 @@
+// Dinot
+
+// @import '../../src/scss/variables.scss';
+
+
+@include font-face("Dinot", "#{$fontPaths}Dinot/DINOT", 400, normal, "woffOnly" );
+// @include font-face("Dinot", "#{$fontPaths}Dinot/DINOT Italic", 400, italic, "woffOnly" );
+
+@include font-face("Dinot", "#{$fontPaths}Dinot/DINOT-Medium", 500, normal, "woffOnly" );
+// @include font-face("Dinot", "#{$fontPaths}Dinot/DINOT-MediumItalic", 400, italic, "woffOnly" );
+
+@include font-face("Dinot", "#{$fontPaths}Dinot/DINOT-Bold", 600, normal, "woffOnly" );
+// @include font-face("Dinot", "#{$fontPaths}Dinot/DINOT-BoldItalic", 600, italic, "woffOnly" );

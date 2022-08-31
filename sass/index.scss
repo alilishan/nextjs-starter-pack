@@ -1,0 +1,40 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Load Fonts
+@import '../fonts/Poppins/style.scss';
+@import '../fonts/MaterialDesign/scss/materialdesignicons.scss';
+
+
+html,
+body { 
+	background-color: $appBgColor;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: 'Poppins', 'Verdana', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: $appColor;
+	letter-spacing: .5px;	
+	font-weight: 400;
+    line-height: 1.5;
+
+	.btn, .btn:focus, .btn-link, a, a:link, a:visited {
+		text-decoration: none;
+		outline: 0;
+		transition: all .3s ease;
+	}
+}
+
+
+@import './common.scss';
+
+
+// $myNeighborPurple: #084298;
+
+// .btn-primary {
+//     @include button-variant($myNeighborPurple, $myNeighborPurple);
+// }

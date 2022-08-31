@@ -1,0 +1,18 @@
+// Gotham
+
+// @import '../../src/scss/variables.scss';
+
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-Light", 100, normal, "oldie" );
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-LightItalic", 100, italic, "oldie" );
+
+@include font-face("Gotham", "#{$fontPaths}/GothamPro", 200, normal, "oldie" );
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-Italic", 200, italic, "oldie" );
+
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-Medium", 400, normal, "oldie" );
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-MediumItalic", 400, italic, "oldie" );
+
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-Bold", 600, normal, "oldie" );
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-BoldItalic", 600, italic, "oldie" );
+
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-Black", 800, normal, "oldie" );
+@include font-face("Gotham", "#{$fontPaths}/GothamPro-BlackItalic", 800, italic, "oldie" );
