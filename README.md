@@ -1,6 +1,13 @@
 
 ## NextJs Starter Pack
 
+### Packages Included
+* Basic: Next, React, ReactDom
+* Sass
+* Bootstrap
+* @svgr/webpack
+
+### Develop
 First, run the development server:
 
 ```bash
